@@ -1,7 +1,21 @@
 graph TD
-  A[Descarga manual de CONPES desde SISCONPES] --> B[Registro en Google Sheets estructurado]
+  A[Descarga manual de CONPES desde SISCONPES] --> B[Registro estructurado en Google Sheets]
   B --> C[Visualización en Google Looker Studio]
-  C --> D[Dashboard Público con filtros]
-  B --> E[Repositorio GitHub con la base documentada]
-  E --> F[Open Legal Data - Visibilidad y colaboración]
-  D --> G[Consultas públicas desde web, QR o GitHub]
+  C --> D[Dashboard Público Interactivo con filtros]
+  B --> E[Repositorio en GitHub con datos y documentación]
+  E --> F[Open Legal Data - Visibilidad, transparencia y colaboración]
+  D --> G[Consulta pública desde sitio web, GitHub, QR]
+  B --> H[Mini ChatBot Legal sin código con AppSheet]
+  H --> G [Mini Chatbot Legal con código
+
+| Etapa                          | Herramienta                                                                                   | Resultado esperado                                                             |
+| ------------------------------ | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **A. Recolección inicial**     | [SISCONPES DNP](https://sisconpes.dnp.gov.co/SisCONPESWeb//AccesoPublico/DocumentosAprobados) | Selección de 5–10 CONPES relevantes                                            |
+| **B. Registro estructurado**   | Google Sheets                                                                                 | Hoja de cálculo con campos: CONPES, año, sector, tipo de riesgo, medidas, etc. |
+| **C. Visualización**           | Google Looker Studio                                                                          | Dashboard con filtros por sector, riesgo, año, subsector                       |
+| **D. Dashboard público**       | Web embebida / link compartible                                                               | Acceso abierto, interactivo y visual a los datos                               |
+| **E. Documentación**           | GitHub + archivos `.md`                                                                       | Proyecto legal abierto con metodología, prompts y base descargable             |
+| **F. Apertura a la comunidad** | GitHub, redes, QR, email                                                                      | Visibilidad, colaboración y posicionamiento                                    |
+| **G. Punto único de consulta** | Web, LinkedIn, GitHub, QR                                                                     | Centralización del acceso para usuarios jurídicos o ciudadanos                 |
+| **H. Mini ChatBot Legal**      | Google AppSheet                                                                               | Búsqueda tipo asistente por tipo de riesgo, sector, número de CONPES           |
+
