@@ -1,0 +1,7 @@
+graph TD
+  A[Descarga manual de CONPES desde SISCONPES] --> B[Registro en Google Sheets estructurado]
+  B --> C[Visualización en Google Looker Studio]
+  C --> D[Dashboard Público con filtros]
+  B --> E[Repositorio GitHub con la base documentada]
+  E --> F[Open Legal Data - Visibilidad y colaboración]
+  D --> G[Consultas públicas desde web, QR o GitHub]
