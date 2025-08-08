@@ -1,0 +1,34 @@
+📁 CONPES_RIESGO_CONTRACTUAL/
+│
+├── 📂 00_RECURSOS_COMUNES
+│   ├── glosario_tipos_de_riesgo.pdf
+│   ├── clasificacion_sectores_y_subsectores.xlsx
+│   └── plantilla_excel_base.xlsx
+│
+├── 📂 01_DOCUMENTOS_ORIGINALES
+│   ├── conpes_3955_2019.pdf
+│   ├── conpes_3976_2020.pdf
+│   └── ...
+│
+├── 📂 02_DATOS_ESTRUCTURADOS
+│   ├── base_conpes_riesgo.xlsx
+│   ├── base_conpes_riesgo.csv
+│   └── conpes3955_ficha_individual.xlsx
+│
+├── 📂 03_DASHBOARDS
+│   ├── link_dashboard_looker.txt
+│   ├── capturas_dashboard/
+│   │   └── dashboard_1.png
+│
+├── 📂 04_CHATBOT
+│   ├── app_config_appsheet.txt
+│   └── preguntas_frecuentes.txt
+│
+├── 📂 05_DOCUMENTACIÓN
+│   ├── metodologia_proyecto.md
+│   ├── prompts_utilizados.md
+│   └── plan_de_apertura_github.md
+│
+└── 📂 99_ARCHIVO
+    ├── versiones_antiguas/
+    └── backup_agosto_2025/
