@@ -1,0 +1,25 @@
+conpes-riesgo-contractual/
+│
+├── 📁 data/
+│   ├── conpes_riesgo_base.xlsx     # Tu base de datos maestra
+│   ├── conpes_riesgo_base.csv      # Mismo archivo en CSV para carga externa
+│   └── README_data.md              # Explicación de las columnas y fuentes
+│
+├── 📁 dashboards/
+│   ├── looker_studio_embed_link.md   # Link del dashboard embebido
+│   └── screenshots/                  # Capturas del dashboard para visualizar en GitHub
+│
+├── 📁 docs/
+│   ├── metodologia.md                # Cómo seleccionaste, clasificaste y extrajiste los datos
+│   ├── prompts_utilizados.md         # Prompt Template usado para extraer los campos
+│   └── preguntas_frecuentes.md       # Ejemplos de consulta que puede resolver tu base
+│
+├── 📁 scripts/ (opcional si usas Python en el futuro)
+│   └── generador_csv.py              # Código para transformar PDFs a estructura CSV
+│
+├── 📁 .github/
+│   └── workflows/                    # Para automatizar carga, publicación o validaciones
+│
+├── LICENSE
+├── README.md                         # Descripción general del proyecto
+└── .gitignore
